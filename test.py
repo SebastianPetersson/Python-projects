@@ -1,3 +1,6 @@
 print("tjena")
 print("hejsan")
 print("hallå")          
+print("uppdatering")
+int("ny rad")
+print("en till rad")    
