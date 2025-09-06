@@ -41,5 +41,9 @@ print("Uppgift 2")
 correct_predictions = 300
 total_predictions = 365
 accuracy = (correct_predictions/total_predictions)
+percentage = accuracy * 100
 
-print(f"Träffsäkerheten av ML-algoritmen är: {accuracy:.2f}")
+print(f"Träffsäkerheten av ML-algoritmen är: {percentage:.1f}%")
+
+#__________________________________
+print("Uppgift 3")
