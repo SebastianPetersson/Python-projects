@@ -73,24 +73,80 @@
 
 #UPPGIFT 4: Multiplikation game____________ Spel som frågar efter ett svar på multiplikationen mellan två random tal.
 
-import random
+#import random
+#
+#poäng = 0
+#fortsätt = "ja"
+#
+#while fortsätt.lower()=="ja":
+#    x = random.randint(1, 10)
+#    y = random.randint(1, 10)
+#
+#    print(f"Vad blir {x} * {y}?")
+#
+#    svar = int(input("Ditt svar: "))
+#    if svar == x * y:
+#        print(f"Grattis, du räknade rätt!")
+#        poäng += 1
+#    else: 
+#        print(f"Fel, rätt svar är {x * y}.")
+#    fortsätt = input("Vill du fortsätta? (ja/nej): ")
+#
+#print(f"Spelet är slut, du fick {poäng} poäng!")
 
-poäng = 0
-fortsätt = "ja"
 
-while fortsätt.lower()=="ja":
-    x = random.randint(1, 10)
-    y = random.randint(1, 10)
+#B) spel med meny.
 
-    print(f"Vad blir {x} * {y}?")
+#import random
 
-    svar = int(input("Ditt svar: "))
-    if svar == x * y:
-        print(f"Grattis, du räknade rätt!")
-        poäng += 1
-    else: 
-        print(f"Fel, rätt svar är {x * y}.")
+#def spela():
+#    antal_frågor = 5
+#    poäng = 0
+#
+#    for i in range(antal_frågor):
+#        x=random.randint(1, 10)
+#        y=random.randint(1, 10)
+#        print(f"Fråga {i+1}: Vad blir {x} * {y}?")
+#        svar = int(input("Ditt svar: "))
+#
+#        if svar == (x*y):
+#            print("Rätt!!")
+#            poäng +=1
+#        else:
+#            print(f"Tyvärr, det var fel. Rätt svar är {x*y}.")
+#
+#    print(f"Där var spelet slut, du fick {poäng} poäng av {antal_frågor} möjliga.")
+#
+#def instruktioner():
+#    print("\n Instruktioner")
+#    print("Spelet går ut på att svara på 5 multiplikationsfrågor.")
+#    print("Försök få 5/5 rätt!")
+#
+#while True:
+#    print("Välkommen till multiplikationsspelet!")
+#    print("1. Starta spelet.")
+#    print("2. Instruktioner.")
+#    print("3. Avsluta")
+#
+#    val = input("Välj ett alternativ (1-3): ")
+#
+#    if val == "1":
+#        spela()
+#    elif val == "2":
+#        instruktioner()
+#    elif val == "3":
+#        print("Tack för att du spelade!")
+#        break
+#    else:
+#        print("Ogiltig val, försök igen. \n")
 
-    fortsätt = input("Vill du fortsätta? (ja/nej): ")
+#5. Convergence
 
-print(f"Spelet är slut, du fick {poäng} poäng!")
+import math
+
+sum = 1
+n = 2
+
+while sum < 2:
+    sum +=  2**2
+
