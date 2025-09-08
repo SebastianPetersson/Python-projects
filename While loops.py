@@ -140,13 +140,3 @@
 #    else:
 #        print("Ogiltig val, försök igen. \n")
 
-#5. Convergence
-
-import math
-
-sum = 1
-n = 2
-
-while sum < 2:
-    sum // 2**2
-
