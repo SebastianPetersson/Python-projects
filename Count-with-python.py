@@ -99,13 +99,25 @@ print("Uppgift 6")
 
 #P1 = (p1, p2, p3) & P2 = (q1, q2, q2)
 
-p1 = 2
-p2 = 1
-p3 = 4
-q1 = 3
-q2 = 1
-q3 = 0
+#p1 = 2
+#p2 = 1
+#p3 = 4
+#q1 = 3
+#q2 = 1
+#q3 = 0
+#
+#distance = math.sqrt((p1-q1)**2 + (p2-q2)**2 + (p3-q3)**2)
+#
+#print(f"Längden mellan P1 & P2 är {distance:.2f} l.u.")
 
-distance = math.sqrt((p1-q1)**2 + (p2-q2)**2 + (p3-q3)**2)
+#p = (2, 1, 4)
+#q = (3, 1, 0)
+#
+#distance = math.sqrt((p[0]-q[0])**2 + (p[1]-q[1])**2 + (p[2]-q[2])**2)
+#
+#print (f"Längden mellan P1 och P2 är {distance:.2f} l.u.")
 
-print(f"Längden mellan P1 & P2 är {distance:.2f} l.u.")
+
+
+
+
