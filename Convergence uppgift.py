@@ -1,24 +1,28 @@
-import math
+# fruits = ["banan", "apelsin", "kiwi", "äpple"]
 
-#sum = 1
-#n = 1
-#
-#antal_steg= 10
-#
-#while n < antal_steg:
-#    sum += 1 / (2**n)
-#    n += 1
-#
-#print(f"Summan efter {antal_steg} steg är {sum:.2f}.")
+# print("Dessa är mina favoritfrukter: ")
+# for i, fruit in enumerate(fruits, 1):
+#     print(f"{i}. {fruit}")
 
-print("Nästa uppgift: \n")
+#---------------------------------------------------------------------------------------
 
-sum = 0
-n = 0
-antal_steg = 1000
+# for x in range(0,3):
+#     for j in range(0,3):
+#         print()
+#         for y in range(0,3):
+#             print(f"({x},{j},{y})",end="")
+#     print()
 
-while n < antal_steg:
-    sum += ((-1)**n) / (2*n + 1)
-    n += 1
+#---------------------------------------------------------------------------------------
 
-print(f"Summan efter {antal_steg} steg är {sum:.5f}")
+
+# nummer = [1, 53, 200, -40, 36, 41, 500, 2, 5, -40, -32]
+
+# print(f"Osorterade: {nummer}")
+# nummer.sort()
+# print(f"Sorterade: {nummer}")
+# nummer.sort(reverse=True)
+# print(f"Baklänges: {nummer}")
+
+#---------------------------------------------------------------------------------------
+
