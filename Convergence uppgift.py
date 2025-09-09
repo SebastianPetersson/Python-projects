@@ -15,7 +15,7 @@ print("Nästa uppgift: \n")
 
 sum = 0
 n = 0
-antal_steg = 100000
+antal_steg = 1000
 
 while n < antal_steg:
     sum += ((-1)**n) / (2*n + 1)
